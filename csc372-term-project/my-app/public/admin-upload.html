@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Author: Callie Hampton
+Admin Bulk Upload Page for MageMart shop site
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+
+        <div id="nav-container">
+
+            <a class="logo" href="index.html" target="_blank">&star;MageMart&star;</a>
+
+            <div>
+                <a class="nav-a" href="admin-upload.html" target="_blank">Bulk Upload</a>
+            </div>
+
+            <div>
+                <a class="nav-a" href="admin-products.html" target="_blank"> Product Listing</a>
+            </div>
+
+            <div>
+                <a class="nav-a" href=# target="_blank"> Sign Out</a>
+            </div>
+
+    </nav>
+
+    <header>
+        <h1>Bulk Upload</h1>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <div id="submit-div">
+            <input type="file" id="file-upload" accept=".json, .csv, .txt">
+            <button type="submit" id="submit-file">Submit</button>
+        </div>
+
+        <p>Accepted Filetypes:</p>
+        <ul>
+            <li>.json</li>
+            <li>.csv</li>
+            <li>.txt</li>
+        </ul>
+
+        Please ensure all data is in the following format:
+        <br>
+
+        <table>
+            <tr>
+                <th>Product ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Image path</th>
+                <th>Price</th>
+            </tr>
+            <tr id="color1">
+                <td>EX0011</td>
+                <td>Example 1</td>
+                <td>Example Description for Example1 Product</td>
+                <td>Apparrel</td>
+                <td>images/examplepath1.png</td>
+                <td>101.99</td>
+            </tr>
+
+            <tr>
+                <td>EX0022</td>
+                <td>Example 2</td>
+                <td>Example Description for Example2 Product</td>
+                <td>Homegoods</td>
+                <td>images/examplepath2.png</td>
+                <td>102.99</td>
+            </tr>
+
+            <tr id="color1">
+                <td>EX0033</td>
+                <td>Example 3</td>
+                <td>Example Description for Example3 Product</td>
+                <td>Accessories</td>
+                <td>images/examplepath3.png</td>
+                <td>103.99</td>
+            </tr>
+
+        </table>
+
+    </main>
+
+</body>
+
+</html>

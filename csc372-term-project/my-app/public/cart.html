@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Author: Callie Hampton
+Shopping Cart Page for MageMart shop site
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+
+        <div id="nav-container">
+
+            <a class="logo" href="index.html" target="_blank">&star;MageMart&star;</a>
+
+            <div id="nav-item">
+                <input type="text" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+
+            <div>
+                <a class="nav-a" href="index.html" target="_blank"> Home</a>
+            </div>
+
+            <div>
+                <a class="nav-a" href="products.html" target="_blank"> Products</a>
+            </div>
+            <div>
+                <a class="nav-a" href="#" target="_blank"> Orders</a>
+            </div>
+            <div>
+                <a class="nav-a" href="#" target="_blank"> Login</a>
+            </div>
+            <div>
+                <a id="cart" class="fa fa-shopping-cart" href="cart.html" target="_blank"></a>
+            </div>
+    </nav>
+
+    <hr>
+
+    <header>Cart</header>
+
+    <hr>
+
+    <main>
+        <div id="product-container">
+
+            <div id="product-item-img">
+                <img src="images/keys.png" alt="Keys" width="150" height="150">
+            </div>
+
+            Skeleton Keys - 2 pc set
+            <p>$79.99 per unit</p>
+
+            <div id="qty">
+                <label for="item-count">Quantity: </label>
+                <span><input type="number" id="item-count" placeholder="1"></span>
+            </div>
+
+            <div id="subtotal"></div>
+            <p>Item(s) Subtotal: $79.99</p>
+
+            <button type="submit" id="rmv-item">Remove From Cart</button>
+
+        </div>
+
+        
+        <div id="product-container">
+
+            <div id="product-item-img">
+                <img src="images/carpets.png" alt="Rug" width="150" height="150">
+            </div>
+
+            <p>Flying Carpet Bundle - 3 pc set</p>
+
+            <p>$299.99 per unit</p>
+
+            <div id="qty">
+                <label for="item-count">Quantity: </label>
+                <span><input type="number" id="item-count" placeholder="1"></span>
+            </div>
+
+            <div id="subtotal"></div>
+            <p>Item(s) Subtotal: $299.99</p>
+
+            <button type="submit" id="rmv-item">Remove From Cart</button>
+
+        </div>
+
+        <div id="product-container">
+
+            <div id="product-item-img">
+                <img src="images/jugofalchemy.jpg" alt="Jug" width="150" height="150">
+            </div>
+
+
+
+            <p>Jug of Alchemy</p>
+
+            <p>$149.99 per unit</p>
+
+            <div id="qty">
+                <label for="item-count">Quantity: </label>
+                <span><input type="number" id="item-count" placeholder="1"></span>
+            </div>
+
+            <div id="subtotal"></div>
+            <p>Item(s) Subtotal: $149.99</p>
+
+            <button type="submit" id="rmv-item">Remove From Cart</button>
+
+        </div>
+
+        </div>
+
+    </main>
+
+    <article>
+        <div id="cart-info">
+            <div id="total">
+            <p>Total: $287.52</p>
+        </div>
+
+        <hr>
+
+        <div id="fine-print">
+            <div id="bold">Please Note:</div>
+            <ul>
+                <li>There is a 6.75% tax for all orders.</li>
+                <li>There is a flat $10 Teleportation Delivery fee for all orders.</li>
+                <li>Orders typically process within 2-3 business days and teleport instantaneously after processing.
+                    Please expect delays of up to 3-5 business days for high volume purchases.</li>
+                <li>All orders on Food-Adjacent Items are Final and are Not subject to refunds or returns.</li>
+            </ul>
+
+            <hr>
+
+            <button type="submit" id="checkout"></i>Checkout</button>
+
+        </div>
+
+        </div>
+    </article>
+
+
+    <footer>
+        &copy; 2025 &star;MageMart&star; Wholesale Corporation. All rights reserved.
+    </footer>
+
+</body>
+
+</html>

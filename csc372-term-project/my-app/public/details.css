@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(134, 176, 249);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    border-bottom: 2px solid #ffe555;
+    padding: 20px;
+    height: 50px;
+    color: #ffe555;
+    font-weight: bold;
+    font-family: Brush Script MT;
+    font-size: 30px;
+    background-color: #190897;
+    text-align: center;
+
+}
+
+.logo {
+    font-size: 50px;
+    text-decoration: none;
+    color: #ffe555;
+    text-shadow: 1px 1px 0#04001e;
+}
+
+.nav-a {
+    border-radius: 20px;
+    padding: 5px;
+    height: 5px;
+    align-content: center;
+    color: #190897;
+    background-color: #ffe555;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#cart {
+    border-radius: 20px;
+    padding: 10px;
+    align-content: center;
+    color: #190897;
+    background-color: #ffe555;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav input[type=text] {
+    float: right;
+    padding: 10px 100px 10px 10px;
+    border: none;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: white;
+    display: block;
+}
+
+nav button {
+    float: right;
+    width: 20%;
+    background: #07003c;
+    color: white;
+    font-size: 20px;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#nav-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#product-container {
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: rgb(210, 222, 243);
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 5px 5px 5px;
+    flex-basis: 100%;
+
+}
+
+#product-item-img {
+    background: white;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    border: 2px #190897 solid;
+}
+
+
+button {
+    color: #190897;
+    background-color: #ffe555;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+p {
+    line-height: 1.5;
+}
+
+#star {
+    color:#ffdb11;
+    text-shadow: 1px 1px #ddc01e;
+
+}
+
+#shipping {
+    display: block;
+    color:#07003c;
+    background-color: rgb(210, 222, 243);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px 5px 5px 5px;
+    flex-basis: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(210, 222, 243);
+}

@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(134, 176, 249);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    border-bottom: 2px solid #ffe555;
+    padding: 20px;
+    height: 50px;
+    color: #ffe555;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 30px;
+    background-color: #190897;
+    text-align: center;
+
+}
+
+.logo {
+    font-family: Brush Script MT;
+    font-size: 50px;
+    text-decoration: none;
+    color: #ffe555;
+    text-shadow: 1px 1px 0#04001e;
+}
+
+.nav-a {
+    border-radius: 20px;
+    padding: 5px;
+    height: 5px;
+    align-content: center;
+    color: #190897;
+    background-color: #ffe555;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav button {
+    float: right;
+    width: 20%;
+    background: #07003c;
+    color: white;
+    font-size: 20px;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#nav-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    text-align: center;
+    color: #190897;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(100, 143, 217);
+    border-radius: 20px;
+    margin: 0 50px 0 50px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+#submit-div {
+    background-color: rgb(68, 104, 167);
+    border-radius: 10px;
+}
+
+#file-upload {
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(54, 59, 67);
+    background-color: aliceblue;
+}
+
+#submit-file {
+    font-size: 20px;
+    color: #ffe555;
+    background-color: #190897;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#submit-file:active {
+    background-color: #07003c;
+}
+
+table {
+    background-color: white;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+
+th,td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+#color1 {
+    background-color: lightgray;
+}
+
+#add-product {
+    font-size: 35px;
+    border-radius: 15px;
+    color: white;
+    background-color: #190897;
+    padding: 7px;
+}
+
+#add-product:active {
+    background-color: #07003c;
+}
+
+#product-container-top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-weight: bold;
+
+}
+
+#div-container {
+
+    background-color: rgb(207, 214, 229);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#product-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    padding: 20px;
+    background-color:rgb(169, 190, 212);
+    border-radius: 20px;
+
+}
+
